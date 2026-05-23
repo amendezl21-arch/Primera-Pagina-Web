@@ -1,0 +1,189 @@
+/* Afecta todos los elementos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cambios en el cuerpo */
+body{
+    font-family: 'DM Sans', sans-serif;
+    background: #ebe8e2;
+    color: #1A1510;
+}
+
+/* Cambios en el header - barra de búsqueda  */
+.header{
+    width: 100%;
+    height: 72px;
+    background: #FAF8F4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+    border-bottom: 1px solid #E8E2D8;
+}
+
+/* Cambios en el título ("Mi Página Web") */
+.titulo h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+/* Cambios en los íconos (usuario y github) */
+.iconos{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+/* a es para enlaces o hipervinculos */
+.iconos a{ 
+    text-decoration: none;
+    color: var(--dark);
+}
+
+/* Diseño del botón */
+.iniciar_sesion{
+    padding: 10px 18px;
+    border: 1px solid #717171;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+/* Efecto al momento de pasar el cursor por arriba */
+.iniciar_sesion:hover{
+    background: #1A1510;
+    color: white;
+}
+/* GITHUB */
+.github-link i{
+    font-size: 25px;
+}
+
+/* Diseño de la barra pequeña (bibliografía personal) */
+.barra_abajo{
+    width: 100%;
+    background: #1A1510;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Diseño de las img del Carrusel */
+.bxslider img{
+    width: 100%;
+    height: 400px;
+    object-fit: contain;
+    background: #f0ebe3;
+}
+/* Diseño del carrusel */
+.bx-wrapper{
+    margin: 70px auto;
+    border: 1px solid #cec9c0 !important;
+}
+
+/* Diseño de tarjetas - SECTION */
+.cards-container{
+    width: 80%;
+    margin: 100px auto;
+    display: grid;  /* grid = diseño basado en cuadrículas (filas y columnas) */
+    grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+    gap: 50px;
+}
+/* Diseño de las img de las tarjetas */
+.card img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+/* Diseño de las tarjetas - DIV */
+.card{
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;  /* para que lo que sobresale de las img se esconda*/
+    transition: 0.3s;
+}
+/* Efecto al pasar el cursor sobre las tarjetas */
+.card:hover{
+    transform: translateY(-8px);
+}
+
+/* El contenido (palabras) de las tarjetas - DIV */
+.card-content{
+    padding: 30px;
+}
+.card-content h3{
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-family: 'Playfair Display', serif;
+}
+.card-content p{
+    font-size: 16px;
+    line-height: 1.7;
+    color: #4e4e4e;
+}
+
+/* Diseño para la sección de mi información - section */
+.seccion-info {
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    background: #ffffff; 
+    border: 1px solid #8a8a8a;
+    border-radius: 15px; 
+}
+
+/* Contenido del lado izquiero - EL TEXTO */
+.contenido-autobiografia {
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+}
+.titulo-autobiografia {
+    font-size: 17px;
+    letter-spacing: 3px; 
+    color: #1A1510;
+    font-weight: 800;
+}
+.texto-autobiografia{
+    font-size: 16px;
+    line-height: 2;
+    color: #4e4e4e;
+    margin: 1px;
+    padding: 20px;
+}
+
+/* Contenido del lado derecho - LA IMÁGEN */
+.img-autobiografia {
+    flex: 0.8;
+    height: 430px;
+}
+
+.img-autobiografia img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover /* La img llena el espacio sin deformarse */
+}
+
+/* Diseño del Footer / Pie de página */
+.footer{
+    background-color: #1A1510;
+    margin-top: 50px;
+    padding: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+.footer-datos{
+    color: #ffffff;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+h4{
+    color: #ffffff;
+}
+h4:hover{
+    color: #f8f196;
+}

@@ -1,0 +1,130 @@
+/* Esto afecta a todos los elementos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Diseño del cuerpo */
+body{
+    font-family: 'DM Sans', sans-serif;
+    background: #ebe8e2;
+    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contenedor del login */
+.login-container{
+    position: relative;
+    width: 100%;
+    max-width: 450px;
+    background: white;
+    padding: 70px 40px 40px;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+/* Ícono de usuario - circulo */
+.usuario-container{
+    position: absolute;
+    top: -50px;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    background: #030303;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* icono de usuario - adentro del círculo */
+.usuario-container i{
+    color: white;
+    font-size: 42px;
+}
+
+/* Diseño del Formulario */
+.login{
+    margin-top: 20px;
+}
+/* Input del formulario */
+.ingresar-form{
+    margin-bottom: 20px;
+}
+.ingresar-form input{
+    width: 100%;
+    padding: 18px;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    background: #FAF8F4;
+    font-size: 16px;
+    color: #1A1510;
+}
+
+/* Parte de abajo - ingresar contraseña */
+.ingresar-opciones{
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+/* Link para contraseña - recuperar.html */
+.contraseña-olvidada{
+    color: #7A6E63;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.contraseña-olvidada:hover{
+    color: #C9722A;
+}
+
+/* Diseño del Botón Ingresar */
+.boton-ingresar{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 12px;
+    background: #1A1510;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: 0.3s;
+}
+.boton-ingresar:hover{
+    background: #C9722A;
+}
+
+/* Parte para registrarse - registro.html */
+.registrar-link{
+    margin-top: 25px;
+}
+.registrar-link p{
+    color: #7A6E63;
+    font-size: 15px;
+}
+.registrar-link a{
+    color: #C9722A;
+}
+
+/* Botón para volver al inicio "PáginaPrincipal.html" */
+.volver-inicio{
+    margin-top: 20px;
+}
+
+.volver-inicio a{
+    text-decoration: none;
+
+    color: #7A6E63;
+
+    font-size: 14px;
+
+    transition: 0.3s;
+}
+.volver-inicio a:hover{
+    color: #C9722A;
+}
+.volver-inicio i{
+    margin-right: 5px;
+}

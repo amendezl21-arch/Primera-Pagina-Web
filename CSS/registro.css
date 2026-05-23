@@ -1,0 +1,80 @@
+/* Afecta a todos los elementos */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Diseño del cuerpo */
+body{
+    font-family: 'DM Sans', sans-serif;
+    background: #ebe8e2;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Diseño del contenedor - form */
+.container-form{
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Diseño del formulario */
+.formulario{
+    background: white;
+    padding: 50px 40px;
+    border-radius: 25px;
+    border: 1px solid #000000;
+    text-align: center;
+}
+
+/* Diseño del título "Crear Cuenta" */
+.formulario h1{
+    font-size: 34px;
+    font-weight: 500;
+    color: #1A1510;
+    margin-bottom: 20px;
+}
+
+/* Diseño del input - formulario */
+.formulario input{
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    font-size: 15px;
+    margin-bottom: 18px;
+}
+
+/* Diseño del Botón - Registrarme */
+.formulario button{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    border-radius: 12px;
+    background: #1A1510;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+/* Diseño botón - al pasar cursor por encima */
+.formulario button:hover{
+    background: #C9722A;
+}
+
+/* Diseño del link para volver al inicio */
+.links{
+    margin-top: 25px;
+}
+.links a{
+    color: #7A6E63;
+    font-size: 14px;
+    transition: 0.3s;
+}
+.links a:hover{
+    color: #C9722A;
+}
+
